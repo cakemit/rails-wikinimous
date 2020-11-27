@@ -10,6 +10,11 @@
   </head>
 
   <body>
+    <div id="nav-bar" class="d-flex justify-content-between">
+      <a href="/articles" class="p-2 font-weight-bold">Wikinimous</a>
+      <%= link_to "New Article", new_article_path, class: "p-2 font-weight-bold"%>
+    </div>
+
     <%= yield %>
   </body>
 </html>

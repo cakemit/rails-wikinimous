@@ -13,4 +13,12 @@
  *= require_tree .
  *= require_self
  */
- @import "bootstrap/scss/bootstrap";
+@import "bootstrap/scss/bootstrap";
+@import "font-awesome";
+
+#nav-bar {
+  background-color: rgba(0, 128, 128, 0.2);
+}
+a {
+  text-decoration: none;
+}
